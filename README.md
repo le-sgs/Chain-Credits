@@ -1,6 +1,6 @@
 # Hardhat Project
 
-This project uses Hardhat. It comes with 2 contracts and scripts that deploys that contracts.
+This project uses Hardhat. It comes with 2 contracts and scripts that deploy that contracts.
 
 Try running some of the following tasks:
 
