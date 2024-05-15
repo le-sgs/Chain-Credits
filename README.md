@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project uses Hardhat. It comes with 2 contracts and scripts that deploys that contracts.
 
 Try running some of the following tasks:
 
