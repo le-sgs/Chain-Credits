@@ -1,0 +1,26 @@
+{
+  "name": "ccm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@openzeppelin/contracts": "^4.4.1",
+    "chart.js": "^4.4.2",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "pdfkit": "^0.15.0",
+    "react-chartjs-2": "^5.2.0"
+  }
+}
