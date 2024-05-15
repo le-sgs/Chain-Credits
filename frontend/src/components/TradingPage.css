@@ -1,0 +1,65 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+}
+
+ .list-group {
+    max-height: 250px; 
+    overflow-y: auto;   
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+} 
+
+
+.chart {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for charts */
+    border-radius: 8px; /* Rounded corners for charts */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Consistent styling with list items */
+}
+
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+} 
+
+.trade-history-container {
+    max-height: 500px;  /* Adjust based on your needs */
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.table-fixed tbody {
+    display: block;
+    max-height: 250px;  /* Adjust to fit 5 rows, or as needed */
+    overflow-y: auto;
+}
+
+.table-fixed thead,
+.table-fixed tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* Optional, for equal column width */
+}
+
+.table-fixed thead {
+    width: calc(100% - 1.05em); /* Adjust scrollbar width */
+}
+
+.table-fixed tbody tr {
+    width: 100%;
+}

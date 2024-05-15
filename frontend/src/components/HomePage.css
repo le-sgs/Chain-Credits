@@ -1,0 +1,66 @@
+.home-container {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #f8f8f8; /* Light grey background for header */
+}
+
+.header h1 {
+  font-family: 'Forte Regular'; /* Fallback to sans-serif if Harlow Solid Italic is not available */
+  margin-left: 20px;
+  font-weight: normal; /* Adjust based on the look you want */
+  color: #4CAF50; /* Example color, adjust as needed */
+}
+
+.logo {
+  max-width: 150px;
+  height: auto; /* Keep aspect ratio */
+}
+
+.admin-login-link {
+  position: relative;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold; /* Make it stand out */
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.buttons .btn {
+  margin-right: 10px;
+  padding: 10px 20px; /* Bigger clickable area */
+  background-color: #4CAF50; /* Primary button color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for the button */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.feature-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add shadow for depth */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

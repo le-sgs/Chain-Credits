@@ -1,0 +1,62 @@
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #2c3e50; /* Adding a more vibrant color for headings */
+}
+
+.section {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    position: relative; /* Needed for positioning labels or any additional icons */
+}
+
+.scroll-section {
+    max-height: 300px;
+    overflow-y: auto; /* Ensures that content within this div is scrollable vertically */
+}
+
+.list-item {
+    background: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 5px solid #3498db; /* Adding a colored border for better visual segmentation */
+}
+
+.input-field, .textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chart-section {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+}
+
+/* Additional styles for improving visual differentiation and readability */
+.dashboard-link {
+    color: #3498db;
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold;
+}
+
+.dashboard-link:hover {
+    text-decoration: underline; /* Adds an underline on hover for better user interaction feedback */
+}
